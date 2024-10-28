@@ -23,6 +23,7 @@ def start_game():
     else:
         return start_game()
 
+
 def switch_player():
     global current_player
     if current_player =="X":
